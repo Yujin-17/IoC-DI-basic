@@ -1,5 +1,8 @@
 package step1.app;
 
-public interface Consumer {
+import step1.enums.Menu;
 
+public interface Consumer {
+    void chikenOrder(Menu menu, int amount);
+    void pizzaOrder(Menu menu, int amount);
 }
